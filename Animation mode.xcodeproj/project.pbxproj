@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE3B63AF1F670ECA00505005 /* rocketOn.wav in Resources */ = {isa = PBXBuildFile; fileRef = FE45A1A91F65B9E700A26E9A /* rocketOn.wav */; };
 		FE45A1981F65B89500A26E9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE45A1971F65B89500A26E9A /* AppDelegate.swift */; };
 		FE45A19A1F65B89500A26E9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE45A1991F65B89500A26E9A /* ViewController.swift */; };
 		FE45A19D1F65B89500A26E9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE45A19B1F65B89500A26E9A /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 		FE45A19E1F65B89500A26E9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE45A1A11F65B89500A26E9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE45A1A31F65B89500A26E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE45A1A91F65B9E700A26E9A /* rocketOn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rocketOn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				FE45A1991F65B89500A26E9A /* ViewController.swift */,
 				FE45A19B1F65B89500A26E9A /* Main.storyboard */,
 				FE45A19E1F65B89500A26E9A /* Assets.xcassets */,
+				FE45A1A91F65B9E700A26E9A /* rocketOn.wav */,
 				FE45A1A01F65B89500A26E9A /* LaunchScreen.storyboard */,
 				FE45A1A31F65B89500A26E9A /* Info.plist */,
 			);
@@ -123,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE45A1A21F65B89500A26E9A /* LaunchScreen.storyboard in Resources */,
+				FE3B63AF1F670ECA00505005 /* rocketOn.wav in Resources */,
 				FE45A19F1F65B89500A26E9A /* Assets.xcassets in Resources */,
 				FE45A19D1F65B89500A26E9A /* Main.storyboard in Resources */,
 			);
@@ -275,6 +279,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MH99TMMZ5H;
 				INFOPLIST_FILE = "Animation mode/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.devcreatios.Animation-mode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,6 +294,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MH99TMMZ5H;
 				INFOPLIST_FILE = "Animation mode/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.devcreatios.Animation-mode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
